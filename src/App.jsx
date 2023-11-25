@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+export default function App(){
+  return(
+    <div>
+        <h1 className="title">Gangajal water Plant</h1>
+        <div className="box">
+          <ul>
+            <li><button>Water Can</button></li>
+            <li><button>Cooling water Can</button></li>
+            <li><button>Cool drinks</button></li>
+          </ul>
+        </div>
 
-function App() {
-  const [count, setCount] = useState(0)
+    </div>
 
-  return (
-    <>
-    <h1>teja</h1>
-    </>
-  )
+  );
 }
-
-export default App
