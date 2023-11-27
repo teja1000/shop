@@ -9,6 +9,7 @@ export default function App(){
             <li><button>Cool drinks</button></li>
           </ul>
         </div>
+        <div>offers</div>
 
     </div>
 
