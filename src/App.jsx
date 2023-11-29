@@ -1,3 +1,5 @@
+import Card from './card';
+
 export default function App(){
   return(
     <div>
@@ -7,9 +9,11 @@ export default function App(){
             <li><button>Water Can</button></li>
             <li><button>Cooling water Can</button></li>
             <li><button>Cool drinks</button></li>
+            
           </ul>
         </div>
-        <div>offers</div>
+      
+        <Card/>
 
     </div>
 
