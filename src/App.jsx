@@ -1,4 +1,5 @@
 import Card from './card';
+import {data} from "./data";
 
 export default function App(){
   return(
@@ -9,11 +10,11 @@ export default function App(){
             <li><button>Water Can</button></li>
             <li><button>Cooling water Can</button></li>
             <li><button>Cool drinks</button></li>
-            
+
           </ul>
         </div>
       
-        <Card/>
+        <Card props={data}/>
 
     </div>
 
