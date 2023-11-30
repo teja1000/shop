@@ -1,5 +1,5 @@
 import Card from './card';
-import {data} from "./data";
+import data from "./data";
 
 export default function App(){
   return(
@@ -14,7 +14,7 @@ export default function App(){
           </ul>
         </div>
       
-        <Card props={data}/>
+        <Card props={data[0]}/>
 
     </div>
 
