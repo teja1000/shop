@@ -37,3 +37,7 @@ width:150px;
   border:3px outset black;
   background-color: beige;
 }
+.body{
+  display:flex;
+  flex-direction: vertical;
+}

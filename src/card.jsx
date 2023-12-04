@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Card = (props) => {
-  const { resdata } = props.props;
+const Card = ({props}) => {
+    const { image, name, price } = props.one;
 
   return (
     <div>
       <div className="card">
-        <img className="image" src={resdata.one.image} alt={resdata.one.name} />
-        <h3>{resdata.one.name}</h3>
-        <h3>{resdata.one.price}</h3>
+        <img className="image" src={image} alt={name} />
+        <h3>{name}</h3>
+        <h3>{price}</h3>
       </div>
     </div>
   );
